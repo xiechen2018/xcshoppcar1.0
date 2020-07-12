@@ -7,7 +7,7 @@
 <head>
 
     <meta charset="UTF-8">
-    <img class="fixed-image" src=u=1172902541.img.jpg" alt="虎哥小店注册页面">
+    <img class="fixed-image" src=u=1172902541.img.jpg" alt="虎哥店铺注册页面">
     <title>欢迎来到虎哥店铺 点击注册</title>
 
 </head>
