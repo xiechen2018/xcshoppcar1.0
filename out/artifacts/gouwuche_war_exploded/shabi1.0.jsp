@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: xiech
+  User: 老黄
   Date: 2020/7/12
-  Time: 18:36
+  Time: 19:00
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -74,23 +74,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>虎哥手机店注册页面</title>
+    <title>欢迎来到老黄的登录界面</title>
     <link rel="stylesheet" href="SignUpStyle.css">
     <link href="https://fonts.googleapis.com/css?familymPermanent+Marker" >
 
 </head>
 <body>
 <div class="sign-div">
-    <form class="" action="http://localhost:8080/gouwuche/login.jsp" method="post">
-        <h1>虎哥手机店</h1>
-        <h1>开始注册</h1>
-        <input class="sign-text" type="text" placeholder="Full Name" >
-        <input class="sign-text" type="email" placeholder="@email">
-        <input class="sign-text" type="password" placeholder="password">
-        <input class="sign-text" type="password" placeholder="confirm password">
-        <input class="sign-btn" type="submit" value="Create Account">
-        <a href="http://localhost:8080/gouwuche/login.jsp">Already Have One?</a>
-        <a href="http://localhost:8080/gouwuche/login.jsp" target="_blank"><button type="click">在此登录</button></a>
+    <form class="http://localhost:8080/gouwuche/test3333.jsp" action="http://localhost:8080/gouwuche/test3333.jsp" method="post">
+        <h1>黄秋欣是个大傻逼</h1>
+        <h2>黄秋欣登录界面1.0</h2>
+        <input class="sign-text" type="text" placeholder="名字：大傻逼" >
+        <input class="sign-text" type="text" placeholder="黄秋欣">
+        <input class="sign-text" type="password" placeholder="密码：大沙比">
+        <input class="sign-btn" type="submit" value="傻逼看你🐎">
+        <a href="http://localhost:8080/gouwuche/login.jsp">Shabi.Already ready?</a>
+        <a href="http://localhost:8080/gouwuche/test3333.jsp" target="_blank"><button type="click">点一点？</button></a>
     </form>
 
 

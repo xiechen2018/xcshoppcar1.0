@@ -1,51 +1,101 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: xiech
+  Date: 2020/7/12
+  Time: 18:36
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<style>
+    body{
+        margin: 0;
+        padding: 0;
+        background: #487eb0;
+    }
+    .sign-div{
+        width: 300px;
+        padding: 20px;
+        text-align: center;
+        background: url(bg02.jpg);
+        position:absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        overflow: hidden;
+    }
+    .sign-div h1{
+        margin-top: 100px;
+        color: #fff;
+        font-size: 40px;
+    }
+    .sign-div input{
+        display: block;
+        width: 100%;
+        padding: 0 16px;
+        height: 44px;
+        text-align: center;
+        box-sizing: border-box;
+        outline: none;
+        border: none;
+        font-family: "montserrat",sans-serif;
+    }
+    .sign-text{
+        margin:4px;
+        background: rgba(255,255,255,5);
+        border-radius: 6px;
+    }
+    .sign-btn{
+        margin-top: 50px;
+        margin-bottom: 20px;
+        background: #487eb0;
+        color: #fff;
+        border-radius: 44px;
+        cursor: pointer;
+        transition: 0.8s;
+    }
+    .sign-btn:hover{
+        transform:scale(0.96);
+    }
+    .sign-div a{
+        text-decoration: none;
+        color: #fff;
+        font-family: "montserrat", sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        transition: 0.8s;
+        display: block;
+    }
+    .sign-div a:hover{
+        background: rgba(0,0,0,.3);
+    }
 
+</style>
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-
     <meta charset="UTF-8">
-    <img class="fixed-image" src=u=1172902541.img.jpg" alt="虎哥店铺注册页面">
-    <title>欢迎来到虎哥店铺 点击注册</title>
+    <title>虎哥手机店注册页面</title>
+    <link rel="stylesheet" href="SignUpStyle.css">
+    <link href="https://fonts.googleapis.com/css?familymPermanent+Marker" >
 
 </head>
-<h1>欢迎来到虎哥小店</h1>
-<body style="background:pink">
-
-<center>
-
-    <form action="http://localhost:8080/gouwuche/login.jsp" method="get">
-
-        注册邮箱 <input type="text" name="useremail" placeholder="注册邮箱">
-
-        <br>
-
-        用户名：<input type="text" name="username" placeholder="输入用户名">
-
-        <br>
-
-        密码：<input type="password" name="userpassword" placeholder="输入密码">
-
-        <br>
-
-        性别：<input type="radio" value="man" name="sex" checked>男
-
-        <input type="radio" value="woman" name="sex">女
-
-        <br>
-
-        <input type="submit" value="已注册？点击登录">
-
-        <input type="reset" value="已有账号？点击登录">
-
-
-
+<body>
+<div class="sign-div">
+    <form class="" action="http://localhost:8080/gouwuche/login.jsp" method="post">
+        <h1>虎哥手机店</h1>
+        <h1>开始注册</h1>
+        <input class="sign-text" type="text" placeholder="Full Name" >
+        <input class="sign-text" type="email" placeholder="@email">
+        <input class="sign-text" type="password" placeholder="password">
+        <input class="sign-text" type="password" placeholder="confirm password">
+        <input class="sign-btn" type="submit" value="Create Account">
+        <a href="http://localhost:8080/gouwuche/login.jsp">Already Have One?</a>
+        <a href="http://localhost:8080/gouwuche/login.jsp" target="_blank"><button type="click">在此登录</button></a>
     </form>
 
-</center>
+
+</div>
+
 
 </body>
-
 </html>

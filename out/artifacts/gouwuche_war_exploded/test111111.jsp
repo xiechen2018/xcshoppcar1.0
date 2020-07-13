@@ -74,23 +74,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>虎哥手机店注册页面</title>
+    <title>虎哥烟草店</title>
     <link rel="stylesheet" href="SignUpStyle.css">
     <link href="https://fonts.googleapis.com/css?familymPermanent+Marker" >
 
 </head>
 <body>
 <div class="sign-div">
-    <form class="" action="http://localhost:8080/gouwuche/login.jsp" method="post">
-        <h1>虎哥手机店</h1>
-        <h1>开始注册</h1>
+    <form class="" action="SignUp.html" method="post">
+        <h1>SIGN UP</h1>
         <input class="sign-text" type="text" placeholder="Full Name" >
         <input class="sign-text" type="email" placeholder="@email">
         <input class="sign-text" type="password" placeholder="password">
-        <input class="sign-text" type="password" placeholder="confirm password">
         <input class="sign-btn" type="submit" value="Create Account">
         <a href="http://localhost:8080/gouwuche/login.jsp">Already Have One?</a>
-        <a href="http://localhost:8080/gouwuche/login.jsp" target="_blank"><button type="click">在此登录</button></a>
+        <a href="http://localhost:8080/gouwuche/login.jsp" target="_blank"><button type="click">详情</button></a>
     </form>
 
 
@@ -99,3 +97,4 @@
 
 </body>
 </html>
+
