@@ -66,6 +66,7 @@
 
         <th>操作</th>
 
+        <th>详情</th>
     </tr>
 
     <tr>
@@ -84,6 +85,7 @@
 
         </td>
 
+        <td><a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632258_3504122_32538762&clk1=d8c239730352a0e008708474bb0bb948&keyword=%E5%B0%8F%E7%B1%B310pro&page=0" target="_blank"><button type="click">详情</button></a></td>
     </tr>
 
     <tr>
@@ -102,6 +104,7 @@
 
         </td>
 
+        <td><a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632258_3504122_32538762&clk1=d8c239730352a0e008708474bb0bb948&keyword=%E5%8D%8E%E4%B8%BAp40pro%E6%89%8B%E6%9C%BA%E5%A3%B3&page=0" target="_blank"><button type="click">详情</button></a></td>
     </tr>
 
     <tr>
@@ -120,6 +123,7 @@
 
         </td>
 
+        <td><a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632258_3504122_32538762&clk1=d8c239730352a0e008708474bb0bb948&keyword=vivo+x50pro&page=0" target="_blank"><button type="click">详情</button></a></td>
     </tr>
 
     <tr>
@@ -138,6 +142,7 @@
 
         </td>
 
+        <td><a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632258_3504122_32538762&clk1=d8c239730352a0e008708474bb0bb948&keyword=oppo+findx2pro&page=0" target="_blank"><button type="click">详情</button></a></td>
     </tr>
 
 </table>
