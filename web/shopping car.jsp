@@ -1,3 +1,10 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: xiech
+  Date: 2020/7/13
+  Time: 15:24
+  To change this template use File | Settings | File Templates.
+--%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 
@@ -12,15 +19,33 @@
 </head>
 
 <style type="text/css">
+    body {
 
-    table{
-
-        margin: 0 auto;
-
+        font-family: monospace;
     }
 
-    table th,table td{
-
+    .blue-background {
+        background-color: blue;
+    }
+    #white {
+        background-color: floralwhite;
+    }
+    #blue {
+        background-color: cornflowerblue;
+    }
+    #pink {
+        background-color: pink;
+    }
+    #orange {
+        background-color: yellow;
+    }
+    #white {
+        background-color: floralwhite;
+    }
+    table {margin: auto}
+    body
+    {
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
     }
 
 </style>
@@ -29,11 +54,11 @@
 
 <table border="1" >
 
-    <tr>
+    <tr class="blue-background">
 
         <th>商品</th>
 
-        <th >单价</th>
+        <th>单价</th>
 
         <th>颜色</th>
 
@@ -49,7 +74,7 @@
 
         <td  >4999</td>
 
-        <td>珍珠白</td>
+        <td id="white">珍珠白</td>
 
         <td>100</td>
 
@@ -67,7 +92,7 @@
 
         <td>5988</td>
 
-        <td>冰霜银</td>
+        <td id="blue">天蓝色</td>
 
         <td>50</td>
 
@@ -85,7 +110,7 @@
 
         <td >4298</td>
 
-        <td>液氧</td>
+        <td id="pink">粉红色</td>
 
         <td>100</td>
 
@@ -103,7 +128,7 @@
 
         <td>4999</td>
 
-        <td>茶橘</td>
+        <td id="orange">橘红色</td>
 
         <td>50</td>
 
