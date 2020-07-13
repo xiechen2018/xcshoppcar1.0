@@ -8,13 +8,18 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <html>
-
+<style type="text/css">
+    body
+    {
+        background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    }
+    </style>
 <head>
- <body style="background:pink">
+
 
   <center>
 
-    <form action="http://localhost:8080/gouwuche/login.jsp" method="get">
+    <form action="http://localhost:8080/gouwuche/shopping%20car.jsp" method="get">
     <meta charset="UTF-8">
 
     <title>登陆成功</title>
